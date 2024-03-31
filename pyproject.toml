@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dash-prac"
+version = "0.1.0"
+description = ""
+authors = ["Seung Hyun Tark <makepin2r@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+mypy = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
