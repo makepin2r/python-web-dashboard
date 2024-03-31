@@ -86,12 +86,16 @@ vscode에서 명령어 팔레트를 연 다음, (`cmd + shift + p`)
     - 프로젝트 루트 경로에 `.vscode/settings.json` 파일을 생성해 아래 내용을 입력한다.
         ```json
         {
-            "editor.formatOnSave": true, // 저장 시 자동 포맷팅
-            "python.analysis.typeCheckingMode": "off", // vscdoe 파이썬 익스텐션의 기본 타입 검사 off
-            "ruff.importStrategy": "fromEnvironment", // 가상환경 내 버전의 ruff 사용
-            "mypy-type-checker.importStrategy": "fromEnvironment" // 가상환경 내 버전의 mypy 사용
+            "editor.formatOnSave": true,
+            "python.analysis.typeCheckingMode": "off",
+            "ruff.importStrategy": "fromEnvironment",
+            "mypy-type-checker.importStrategy": "fromEnvironment"
         }
         ```
+        - `"editor.formatOnSave": true`: 저장 시 자동 포맷팅
+        - `"python.analysis.typeCheckingMode": "off"`: vscdoe 파이썬 익스텐션의 기본 타입 검사 off
+        - `"ruff.importStrategy": "fromEnvironment"`: 가상환경 내 버전의 ruff 사용
+        - `"mypy-type-checker.importStrategy": "fromEnvironment"`: 가상환경 내 버전의 mypy 사용
 
 ---
 #### 레퍼런스
