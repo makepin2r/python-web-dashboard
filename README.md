@@ -101,3 +101,4 @@ vscode에서 명령어 팔레트를 연 다음, (`cmd + shift + p`)
 #### 레퍼런스
 - [poetry를 활용한 가상환경 설치 관련](https://sjquant.tistory.com/93)
 - [dash 관련해 공부하며 참고중인 글](https://abluesnake.tistory.com/152)
+- [http://bigdata.dongguk.ac.kr/lectures/datascience/_book/a4.-dash%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-python-dashboard.html](http://bigdata.dongguk.ac.kr/lectures/datascience/_book/a4.-dash%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-python-dashboard.html)
