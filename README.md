@@ -26,6 +26,11 @@ poetry init
 poetry shell
 ```
 
+### 가상환경 종료
+```bash
+exit
+```
+
 ### 라이브러리 설치 방법
 ```bash
 # 설치 명령어
